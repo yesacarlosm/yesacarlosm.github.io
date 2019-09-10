@@ -1,7 +1,7 @@
 {
-  "name": "react-pages-boilerplate",
+  "name": "yesacarlosm.github.com",
   "version": "1.0.0",
-  "description": "Simple boilerplate for working with React, redux, react-router and Github Pages",
+  "description": "Simple github page made on react.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtivital/react-pages-boilerplate.git"
+    "url": "git+https://github.com/yesacarlosm/yesacarlosm.github.io"
   },
-  "author": "Vitaly Rtishchev <rtivital@gmail.com> (http://github.com/rtivital)",
+  "author": "Carlos Yesa <yesacarlosm@gmail.com> (http://github.com/yesacarlosm)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rtivital/react-pages-boilerplate/issues"
+    "url": "https://github.com/yesacarlosm/yesacarlosm.github.io/issues"
   },
-  "homepage": "https://github.com/rtivital/react-pages-boilerplate#readme",
+  "homepage": "https://github.com/yesacarlosm/yesacarlosm.github.io/",
   "dependencies": {
     "@storybook/addon-actions": "^3.4.10",
     "@storybook/addon-centered": "^3.4.10",
