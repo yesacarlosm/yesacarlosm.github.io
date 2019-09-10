@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div>
       <h1 style={{ fontSize: 50, fontWeigth: 'bold', textAlign: 'center' }}>
-        React Pages Boilerplate
+        Carlos Yesa GH Page
       </h1>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
