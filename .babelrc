@@ -1,21 +1,25 @@
 {
   "presets": [
-    "react",
-    "stage-1",
-    ["env", { "targets": { "browsers": ["last 2 versions"] }, "modules": false }]
+    "@babel/preset-react",
+    ["@babel/preset-env", { "targets": { "browsers": ["last 2 versions"] }, "modules": false }]
   ],
 
-  "plugins": ["transform-decorators-legacy", "transform-class-properties"],
+  "plugins": [[
+    "@babel/plugin-proposal-decorators",
+    {
+      "legacy": true
+    }
+  ], "transform-class-properties"],
 
   "env": {
     "production": {
-      "presets": ["react-optimize"],
-      "plugins": ["transform-runtime", "ramda", "lodash"]
+      "presets": ["@babel/preset-react"],
+      "plugins": ["@babel/plugin-transform-runtime", "ramda", "lodash"]
     },
 
     "test": {
       "presets": [
-        ["env", { "targets": { "browsers": ["last 2 versions"] } }]
+        ["@babel/preset-env", { "targets": { "browsers": ["last 2 versions"] } }]
       ],
       "plugins": [["module-resolver", { "root": ["./src"] }]]
     }

@@ -15,8 +15,8 @@ const stylesLoaders = [
   {
     loader: 'sass-loader',
     options: {
-      data: '@import "styles/globals";',
-      includePaths: [path.join(__dirname, '../src')],
+      // data: '@import "styles/globals";',
+      // includePaths: [path.join(__dirname, '../src')],
     },
   },
 ];
