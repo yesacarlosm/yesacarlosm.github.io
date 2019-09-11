@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "yesacarlosm.github.com",
+  "description": "Simple github page made on react.",
+  "icons": {
+    "60": "/yesacarlosm.github.io/assets/firefox_app_60x60.png",
+    "128": "/yesacarlosm.github.io/assets/firefox_app_128x128.png",
+    "512": "/yesacarlosm.github.io/assets/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "Carlos Yesa",
+    "url": "http://github.com/yesacarlosm"
+  }
+}
