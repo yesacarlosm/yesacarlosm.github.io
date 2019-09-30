@@ -1,14 +1,12 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
-import HomePage from 'components/routes/home/HomePage';
+import AppRouter from 'components/AppRouter';
 
 function App() {
   return (
     <HashRouter>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-      </Switch>
+      <AppRouter />
     </HashRouter>
   );
 }

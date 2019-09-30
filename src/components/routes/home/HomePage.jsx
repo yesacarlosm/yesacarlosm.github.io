@@ -1,16 +1,14 @@
 import React from 'react';
 import Button from 'components/ui/Button/Button';
 
-export default function HomePage() {
+const HomePage = () => {
   return (
-    <div>
-      <h1 style={{ fontSize: 50, fontWeigth: 'bold', textAlign: 'center' }}>
-        Carlos Yesa GH Page
-      </h1>
-
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <Button theme="blue">Click me!!</Button>
+    <div className='card'>
+      <div className='card-body'>
+        <h1 className='card-title'>Carlos Yesa GH Page</h1>
       </div>
     </div>
   );
-}
+};
+
+export default HomePage;
